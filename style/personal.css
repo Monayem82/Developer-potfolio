@@ -1,0 +1,73 @@
+body{
+    padding: 0;
+    margin: 0;
+    font-family: 'Open Sans';
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 40px;
+    margin-left: 67px;
+}
+
+.header-title{
+    font-style: normal;
+    font-weight: 800;
+    font-size: 45px;
+}
+
+.header-title-name{
+    color:#FD6E0A;
+
+}
+nav ul{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav li{
+    list-style: none;
+    margin-left: 40px;
+}
+.nav-link{
+    margin-right: 230px;
+}
+ul li button{
+    padding: 10px;
+    border: 10px solid #FD6E0A;
+    border-radius: 10px;
+    background-color: #FD6E0A;
+    color: aliceblue;
+    height: 64px;
+    left: 1220px;
+    font-weight: 700;
+    font-size: 20px;
+}
+/* bannar part  */
+.bannar{
+    display: flex;
+    margin: 0;
+    margin-left: 67px;
+}
+.bannar-text{
+
+}
+.bannar-text h3{
+    font-weight: 600;
+    font-size: 35px;
+}
+.bannar-text h2{
+    width: 585px;
+    height: 356px;
+    font-weight: 700;
+    font-size: 73px;
+    margin-bottom: 0px;
+    
+}
+.bannar-image{
+}
+.bannar-image img{
+    width: 584px;
+    height: 676px;
+}
