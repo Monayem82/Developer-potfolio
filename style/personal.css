@@ -7,10 +7,15 @@ nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    margin-top: 40px;
-    margin-left: 67px;
+    /* margin-top: 40px; */
+    margin-left: 100px;
 }
-
+.header{
+    background: #FFF8F3;
+    background-image: url('../images/header_bg.png'),url('../images/developer.png');
+    background-repeat: no-repeat;
+    background-position: bottom right,left;
+}
 .header-title{
     font-style: normal;
     font-weight: 800;
@@ -33,14 +38,14 @@ nav li{
 .nav-link{
     margin-right: 230px;
 }
-ul li button{
+.primary-btn{
     padding: 10px;
     border: 10px solid #FD6E0A;
     border-radius: 10px;
     background-color: #FD6E0A;
     color: aliceblue;
-    height: 64px;
-    left: 1220px;
+    /* height: 64px; */
+    /* left: 1220px; */
     font-weight: 700;
     font-size: 20px;
 }
@@ -48,21 +53,24 @@ ul li button{
 .bannar{
     display: flex;
     margin: 0;
-    margin-left: 67px;
+    margin-left: 100px;
+    align-items: center;
+    margin-right: 38px;
 }
 .bannar-text{
-
+    padding-right: 10px;
 }
 .bannar-text h3{
     font-weight: 600;
     font-size: 35px;
+    margin-bottom: 5px;
+    color: #474747;
 }
 .bannar-text h2{
-    width: 585px;
-    height: 356px;
+    margin-top: 0px;
     font-weight: 700;
     font-size: 73px;
-    margin-bottom: 0px;
+    margin-bottom: 20px;
     
 }
 .bannar-image{
@@ -70,4 +78,88 @@ ul li button{
 .bannar-image img{
     width: 584px;
     height: 676px;
+    /* margin-right: 38px; */
+}
+.pri-btn{
+    /* width: 113px; */
+    /* height: 27px; */
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-align: center;
+    color: #FD6E0A;
+    padding: 16px;
+    border: 1px solid #FD6E0A;
+    border-radius: 5px;
+    margin: 30px;
+}
+.bannar-para{
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+/* main section starts */
+main{
+    max-width: 1140px;
+    margin: 0 auto;
+}
+
+.about{
+    margin-top: 130px;
+    background: #FFF8F3;
+    border-radius: 10px;
+    padding: 130px 150px;
+    /* align-items: center; */
+}
+.about-title{
+    text-align: center;
+    margin-bottom: 30px;
+    font-weight: 700;
+    font-size: 35px;
+    color: #181818;
+}
+.about-describe{
+    margin-bottom: 30px;
+    font-size: 18px;
+    text-align: center;
+    color: #757575;
+}
+.about-info{
+    display: flex;
+}
+.info-initial{
+    margin-left: 50px;
+}
+
+.para-info{
+    font-size: 20px;
+    color: #757575;
+    margin-bottom: 0px;
+}
+.name-info{
+    font-weight: 700;
+    font-size: 20px;
+    margin-top: 5px;
+    color: #474747;
+}
+.whati{
+    margin-top: 130px;
+    margin-bottom: 50px;
+}
+.ido{
+   display: flex;
+   margin-bottom: 130px;
+}
+.skill-develop{
+    padding: 30px;
+    margin-left: 24px;
+    background: #FFFFFF;
+    box-shadow: 0px 6px 50px rgba(0, 0, 0, 0.06);
+    border-radius: 5px;
+}
+.summer-resum{
+    display: grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-column-gap: 71px;
+    grid-row-gap: 60px;
 }
